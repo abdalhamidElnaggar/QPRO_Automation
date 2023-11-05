@@ -6,7 +6,7 @@ Test Teardown  Close Web Browser
 *** Test Cases ***
 
 Check thinking in html book is displayed along with its price
-    [Tags]  UI  debug
+    [Tags]  UI
     Open Web Browser At Home Page
     Check A Specific Book Is Displayed With The Correct Price in home page  Thinking in HTML  ₹400.00
 

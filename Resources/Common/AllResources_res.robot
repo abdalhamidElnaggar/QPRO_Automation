@@ -5,6 +5,7 @@ Library  String
 Library  SeleniumLibrary  screenshot_root_directory=EMBED
 Library  RequestsLibrary
 Library  FakerLibrary  locale=en_US  WITH NAME  Faker
+Library  Collections
 
 
 ### Common files ###
@@ -12,6 +13,7 @@ Library  FakerLibrary  locale=en_US  WITH NAME  Faker
 Resource  WebApp_res.robot
 Resource  WebApp_EntryPoints_res.robot
 Resource  TestData_res.robot
+Resource  APIs_user_data_res.robot
 
 ### page objects  ###
 ### all web app pages object files to be added at this section ###
@@ -20,3 +22,6 @@ Resource  ../PageObject/Header_res.robot
 Resource  ../PageObject/Basket_res.robot
 Resource  ../PageObject/Checkout_res.robot
 Resource  ../PageObject/Thankyou_page_res.robot
+
+### APIs Resources  ###
+Resource    ../APIs/Users_EndPoint_res.robot
