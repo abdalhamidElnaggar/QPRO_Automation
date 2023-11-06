@@ -68,11 +68,13 @@ pip3 install -r Requirements.txt
 
 1. Run Test in Parallel execution mode with chrome browser 
 ```sh
-pabot --testlevelsplit  --processe 8  --argumentfile Resources/ExecutionArgs/ChromeExecutionArgs.robot  TestCases 
+pabot --testlevelsplit  --processes 8  --argumentfile Resources/ExecutionArgs/ChromeExecutionArgs.robot  TestCases 
 ```
+Replace 8 with the number of parrallel browsers you want to open
+
 2. Run Test in Parallel execution mode with firefox browser 
 ```sh
-pabot --testlevelsplit  --processe 8  --argumentfile Resources/ExecutionArgs/FireFoxExecutionArgs.robot  TestCases 
+pabot --testlevelsplit  --processes 8  --argumentfile Resources/ExecutionArgs/FireFoxExecutionArgs.robot  TestCases 
 ```
 
 ## APIs Test Run with PABOT
